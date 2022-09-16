@@ -88,8 +88,8 @@
     fill: var(--icon-color);
     transition: fill 250ms var(--cubic-style);
 
-&:hover .social-list-icon,
-&:focus .social-list-icon {
+.social-list-link:hover &,
+.social-list-link:focus & {
     fill: var(--white-color);
 }
 }

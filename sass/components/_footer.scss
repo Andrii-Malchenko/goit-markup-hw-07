@@ -26,7 +26,13 @@
     color: var(--link-color);
     text-decoration: none;
     transition: color 250ms var(--cubic-style);
+
+&:hover,
+&:focus {
+    color: var(--accent);
 }
+}
+
 
 .footer-phone {
     font-family: "Roboto", sans-serif;
@@ -38,6 +44,11 @@
     color: var(--link-color);
     text-decoration: none;
     transition: color 250ms var(--cubic-style);
+
+&:hover,
+&:focus {
+    color: var(--accent);
+}
 }
 
 .site {
@@ -51,15 +62,8 @@
     text-decoration: none;
 }
 
-.footer-phone:hover,
-.footer-phone:focus {
-    color: var(--accent);
-}
 
-.footer-mail:hover,
-.footer-mail:focus {
-    color: var(--accent);
-}
+
 
 .text-tagline {
     color: var(--white-color);
