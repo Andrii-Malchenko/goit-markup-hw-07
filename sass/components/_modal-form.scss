@@ -101,10 +101,10 @@
 .modal-check-icon {
     position: absolute;
     opacity: 0;
-}
 
-.modal-checkbox:checked~.modal-check-icon {
+.modal-checkbox:checked~& {
     opacity: 1;
+}
 }
 
 .modal-check-border-icon {
