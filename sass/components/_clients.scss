@@ -1,0 +1,47 @@
+.clients {
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.clients-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-list-link {
+    width: 170px;
+    height: 92px;
+    color: var(--icon-color);
+    fill: currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    transition: color 250ms var(--cubic-style),
+        background-color 250ms var(--cubic-style);
+
+&:hover,
+&:focus {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+}
+
+.clients-list-icon {
+    fill: currentColor;
+}
