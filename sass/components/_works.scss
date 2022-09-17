@@ -13,7 +13,7 @@
     margin-bottom: 50px;
 }
 
-.work-images {
+.work__list {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.work-list-text {
+.work__text {
     background: rgba(47, 48, 58, 0.8);
     color: var(--white-color);
     font-weight: 700;

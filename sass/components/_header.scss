@@ -34,7 +34,7 @@
     margin-bottom: 30px;
 }
 
-.contact-mail {
+.contact__mail {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -52,11 +52,11 @@
 }
 }
 
-.list-link {
+.contact-list__link {
     margin-right: 50px;
 }
 
-.contact-phone {
+.contact__phone {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -95,7 +95,7 @@
     column-gap: 50px;
 }
 
-.menu-contact {
+.contact-list {
     display: flex;
     align-items: center;
     margin-left: auto;
