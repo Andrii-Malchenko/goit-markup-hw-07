@@ -43,14 +43,14 @@
     color: var(--secondary-color-text);
 }
 
-.portfolio-filter {
+.portfolio__filter {
     display: flex;
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
 }
 
-.portfolio-list {
+.portfolio__list {
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc((100% - 60px) / 3);
