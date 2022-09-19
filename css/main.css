@@ -203,7 +203,7 @@ img {
   margin-right: 10px;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -265,7 +265,7 @@ img {
   margin-bottom: 30px;
 }
 
-.modal-open-button {
+.modal-open__button {
   background-color: var(--accent);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -284,12 +284,12 @@ img {
   margin-left: auto;
   transition: background-color 250ms var(--cubic-style);
 }
-.modal-open-button:hover, .modal-open-button:focus {
+.modal-open__button:hover, .modal-open__button:focus {
   background-color: var(--button-color);
   color: var(--white-color);
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   list-style: none;
   column-gap: 30px;
